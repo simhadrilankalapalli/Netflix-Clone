@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #333;
+    /* background-color: transparent; */
+}
+body::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-blend-mode: darken;
+    background-image: url("assets/jpg/banner/signinlogo.jpg");
+
+    
+}
+.wrapper{
+    position: absolute;
+    top: 55%;
+    width: 440PX;
+    left: 50%;
+    padding: 60PX;
+    background-color:black;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background: rgba(0,0,0,0.8);
+}
+.wrapper h1{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px 10px 30px 10px;
+    
+}
+.wrapper form{
+    margin: 25px 0px 65px;
+}
+.wrapper input{
+    height: 40px;
+    width: 100%;
+    background-color: #444;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 2% 1%;
+    padding: 1px 20px;
+}
+.wrapper input::placeholder{
+    color: #c4bcbc;
+    left: 20px;
+    top: 15px;
+    font-size: 1rem;
+    padding: 10% 4%;
+}
+.wrapper form button{
+    width: 100%;
+    background-color: rgb(225, 9, 9);
+    color: whitesmoke;
+    padding: 9px 25px;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    margin: 9% 1% 3% 1%;
+}
+.wrapper form button:hover{
+    background-color: rgb(255, 1, 1);
+    
+}
+.wrapper form .forms-help{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper form .forms-help input[type="checkbox"]{
+    height: 15px;
+    width: 20px;
+
+}
+.wrapper form .forms-help label{
+    color: #a6a5a5;
+    padding: 8px 125px 5px 0px;
+    font-size: 13px;
+}
+.wrapper form .forms-help .a1{
+    color: #a6a5a5;
+    font-size:13px ;
+    padding: 6px;
+    text-decoration: none;
+}
+.wrapper form .forms-help p{
+    color: #fff;
+    margin: 1%;
+}
+.wrapper form .s1 .p1{
+    color: #777;
+    padding: 10px 0px 10px 6px ;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.wrapper form .s1 a{
+    color: #e8e4e4;
+    padding: 10px 0px 10px 6px ;
+    font-size: 15px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.wrapper form .s1 .p2{
+    color: #777;
+    padding: 10px 0px 10px 6px ;
+    font-size: 13px;
+}

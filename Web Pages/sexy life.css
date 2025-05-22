@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #111;
+}
+.banner{
+    background-image: linear-gradient(90deg, #181818 10%, hsl(0deg 0% 9%) 20%, hsl(0deg 0% 9% / 93%) 25%, hsl(0deg 0% 9% / 66%) 35%, hsl(0deg 0% 9% / 51%) 40%, hsl(0deg 0% 9% / 38%) 45%, hsl(0deg 0% 9% / 24%) 50%, hsl(0deg 0% 9% / 15%) 55%, hsl(0deg 0% 9% / 10%) 60%, hsl(0deg 0% 9% / 11%) 65%, hsl(0deg 0% 9% / 9%) 70%, hsl(0deg 0% 9% / 13%) 75%, hsl(0deg 0% 9% / 6%) 80%, hsl(0deg 0% 9% / 4%) 85%, hsl(0deg 0% 9% / 0%) 90%, hsl(0deg 0% 9% / 0%) 95%, hsl(0deg 0% 9% / 0%)),url(assets/jpg/banner/sexylife.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 101vh;
+    width: 100%;
+}
+.banner .banner-content{
+    padding: 10% 5%;
+
+}
+.banner .banner-content .banner-title h2{
+    font-size:5rm;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.banner .banner-content .banner-title .p1{
+    color: rgb(161, 159, 159);
+    font-size: 1rem;
+    max-width: 600px;
+    padding: 1% 0%;
+
+}
+.banner .banner-content .banner-title .p2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    max-width: 600px;
+    padding: 1% 0%;
+
+}
+
+.banner .banner-content .banner-title .p3{
+    color: rgb(161, 159, 159);
+    font-size: 1rem;
+    max-width: 600px;
+    padding: 1% 0%;
+
+}
+
+.banner .banner-content .banner-title .l1{
+    height: 110px;
+    width: 550px;
+}
+
+.banner .banner-content .banner-buttons .play{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 3px 6px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    
+
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: rgb(154, 17, 17);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 3px 6px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow:0px 0px 1px 1px white;
+}
+
+.banner .banner-content .banner-buttons .info{
+    background-color: #999;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 3px 6px;
+    margin: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-buttons .info:hover{
+    background-color: #747171;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 3px 6px;
+    margin: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow:0px 0px 1px 1px white;
+}
+
+nav .logo{
+    width: 110px;
+    object-fit: contain;
+    margin: 10px 50px;
+    height: 30px;
+}
+
+/* nav .profile{
+    width: 80px;
+    object-fit: contain;
+    margin: 10px 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+} */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #111;
+
+}
+nav .s1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 18px 10px 4px 825px;
+}
+nav .s2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 11, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 10px 4px 10px 5px;
+    padding: 9px 22px;
+    border-radius: 2px;
+    border: none;
+}
+nav .s2:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 10px 4px 10px 5px;
+    padding: 9px 22px;
+    border-radius: 2px;
+    border: none;
+}
+
+nav .s3{
+    color: whitesmoke;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px 45px 10px 5px;
+    border-radius: 2px;
+    padding: 9px 22px;
+    border: 1px solid #888;
+}
+nav .s3:hover{
+    color: whitesmoke;
+    background-color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px 45px 10px 5px;
+    border-radius: 2px;
+    padding: 9px 22px;
+    border: 1px solid #888;
+}
+footer{
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+footer .col{
+margin: 10px 50px;
+
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+.language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin-left: 60px;
+
+}
+.country{
+    color: #666;
+    margin-left: 60px;
+    padding: 10px 5px;
+
+}
+i{
+    padding: 9px;
+}
+
+.n1{
+    
+    height: 40px;
+    width: 30px;
+    padding: 1px 4px 1px 4px;
+}
+.title-bar{
+    margin:0px 90px 5px 90px ;
+    background-color: #333;
+
+}
+
+.title-title{
+    display: flex;
+    padding: 8px 13px 8px 30px;
+
+}
+.title-bar .title-content .title-title .n2{
+    padding: 13px 20px 2px 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-bar .title-content .title-title .n3{
+    margin:5px 5px 5px 950px;
+    background-color: rgb(232, 10, 10);
+    border: none;
+    border-radius: 3px;
+    padding: 2px 20px 2px 20px;
+    color: whitesmoke;
+    font-family: Arial;
+}
+.hr-section{
+    margin: 5px 80px;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hr-section p{
+    margin:10px 430px;
+}
+.videos{
+    color: #fff;
+    font-size: 18px;
+   padding: 50px 10px 10px 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200;
+}
+.videos .iframes{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 1px 10px;
+    
+    
+}
+.videos .iframes .i1{
+    padding: 2px 10px;
+}
+.videos .iframes::-webkit-scrollbar{
+    display: none;
+}
